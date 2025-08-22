@@ -1,0 +1,16 @@
+goos: darwin
+goarch: amd64
+pkg: benchmark/benchstat
+cpu: Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz
+BenchmarkStrcat-8   	34246794	        33.43 ns/op	      16 B/op	       1 allocs/op
+BenchmarkStrcat-8   	36055962	        33.08 ns/op	      16 B/op	       1 allocs/op
+BenchmarkStrcat-8   	35540614	        33.57 ns/op	      16 B/op	       1 allocs/op
+BenchmarkStrcat-8   	34619481	        33.13 ns/op	      16 B/op	       1 allocs/op
+BenchmarkStrcat-8   	35878315	        33.29 ns/op	      16 B/op	       1 allocs/op
+BenchmarkStrcat-8   	35326928	        34.86 ns/op	      16 B/op	       1 allocs/op
+BenchmarkStrcat-8   	35393318	        33.10 ns/op	      16 B/op	       1 allocs/op
+BenchmarkStrcat-8   	35915566	        32.99 ns/op	      16 B/op	       1 allocs/op
+BenchmarkStrcat-8   	35327486	        33.44 ns/op	      16 B/op	       1 allocs/op
+BenchmarkStrcat-8   	35529058	        34.16 ns/op	      16 B/op	       1 allocs/op
+PASS
+ok  	benchmark/benchstat	12.221s
