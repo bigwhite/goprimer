@@ -1,10 +1,10 @@
 package main
 
 func main() {
-	a, b := true, false
+	a, b := false, true
 	if a && b != true {
 		println("(a && b) != true")
 		return
 	}
-	println("a && (b != true) == true")
+	println("a && (b != true) == false")
 }
