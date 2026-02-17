@@ -13,3 +13,4 @@
 | 3  | Go语言第一课 | p137 | “//输出变量a的值，即与”  | 异步社区 | typo | 应该为 `//输出变量a的值，即5`  | 未修正 |
 | 4  | Go语言第一课 | p145 | ch11/precedence.go的执行结果与下面的说明不符 (注：原极客时间专栏内容并无此问题) | shootercheng@foxmail.com | 逻辑错误 | 修正方法参见本仓库更正过的ch11/precedence.go，同时书中代码说明中原先的“"a && (b != true) == true"”,也应改为“"a && (b != true) == false"”， | 未修正 |
 | 5  | Go语言第一课 | p71 | 6.2.2 变量声明块”章节的最后一段代码示例里重复声明了 c | [TCOTC](https://github.com/TCOTC) | typo | | 未修正 |
+| 6  | Go语言第一课 | p213 | ch15/conflict.go示例中的“编译器错误: duplicate method M2”有误 | [choonsiong](https://github.com/choonsiong) | typo | | 未修正 |
